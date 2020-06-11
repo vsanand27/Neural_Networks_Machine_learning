@@ -21,7 +21,7 @@ The data from the csv file is read into charity_df dataframe and a bunch of prop
 
 Setting up the Deep Learning Model
 The Deep Learning Neural model has two hidden layers. First layer has 80 neurons and second has 30 Below is the model summary.
-
+![alt text](https://github.com/vsanand27/Neural_Networks_Machine_learning/blob/master/defining%20the%20model.PNG)
 
 
 Training and testing the model - Accuracy
