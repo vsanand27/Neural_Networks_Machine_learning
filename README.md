@@ -27,6 +27,7 @@ The Deep Learning Neural model has two hidden layers. First layer has 80 neurons
 Training and testing the model - Accuracy
 Accuracy score is 0.73 i.e 73% with 100 epochs
 
+![alt text](https://github.com/vsanand27/Neural_Networks_Machine_learning/blob/master/Model%20Accuracy%20and%20loss.PNG)
 
 How many neurons and layers did you select for your neural network model? Why?
 A good rule of thumb is to take 2 - 3 times the number of input features so here we have taken 80 neurons in the first hidden layer and 30 in the second layer.
