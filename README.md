@@ -13,25 +13,20 @@ Link to the jupyter notebook file:
 
 3) Optimize model training and input data to achieve desired model performance.
 
-Dataset provided: charity_data.csv 
-Jupyter Notebook: 
+Dataset provided: https://github.com/vsanand27/Neural_Networks_Machine_learning/blob/master/charity_data.csv
+Jupyter Notebook: https://github.com/vsanand27/Neural_Networks_Machine_learning/blob/master/AlphabetSoupChallenge.ipynb
 
 Data Preprocessing
 The data from the csv file is read into charity_df dataframe and a bunch of proprocessing steps are applied. Preprocessing on the data is appllied where we drop the EIN and Name column as they do not qualify/impact the target. Application_type and Classification are bucketed using OneHotCoder. This is then merged with the original charity_df and then application as well as classification columns are dropped
 
-alt_text
-
 Setting up the Deep Learning Model
 The Deep Learning Neural model has two hidden layers. First layer has 80 neurons and second has 30 Below is the model summary.
 
-alt_text
+
 
 Training and testing the model - Accuracy
 Accuracy score is 0.73 i.e 73% with 100 epochs
 
-alt_text
-
-Summary
 
 How many neurons and layers did you select for your neural network model? Why?
 A good rule of thumb is to take 2 - 3 times the number of input features so here we have taken 80 neurons in the first hidden layer and 30 in the second layer.
